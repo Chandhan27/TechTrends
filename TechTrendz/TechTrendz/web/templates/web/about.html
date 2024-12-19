@@ -1,0 +1,145 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+TechTrendz | About
+{% endblock title %}
+
+{% block content %}
+
+<!-- Parallax Section -->
+<div class="position-relative text-center text-white bg-dark" style="height: 300px;">
+    <img class="img-fluid w-100 h-100" src="{% static 'image/project/techtrendz_logo.png' %}" alt="TechTrendz Logo"
+        style="opacity: 0.5; object-fit: cover;">
+    <div class="position-absolute top-50 start-50 translate-middle text-center">
+        <h1 class="display-4 fw-bold">Unleashing the Power of TechTrendz</h1>
+    </div>
+</div>
+
+
+<div class="container my-5">
+    <!-- Introduction Section -->
+    <div class="text-center mb-5">
+        <!-- <img src="{% static 'image/project/techtrendz_logo.png' %}" alt="TechTrendz Logo" class="img-fluid mb-3"
+            style="max-height: 200px;"> -->
+        <h1 class="display-4">Welcome to TechTrendz</h1><br><br>
+        <p class="lead">Your one-stop destination for all things tech. Discover the latest gadgets, electronics, and
+            smart devices.</p><br>
+        <img src="{% static 'image/project/techtrendz_logo.png' %}" alt="TechTrendz Logo" class="img-fluid mb-3"
+            style="max-height: 200px;">
+    </div>
+
+
+    <!-- Our Mission Section -->
+    <div class="mb-5">
+        <h2 class="text-center text-warning">Our Mission</h2>
+        <p class="text-justify">Our mission is to revolutionize the way you experience and purchase technology. We
+            strive to make high-quality tech products accessible to everyone, ensuring you stay ahead of the curve in
+            this rapidly evolving digital age.</p>
+    </div>
+
+    <!-- Our Story Section -->
+    <div class="mb-5">
+        <h2 class="text-center text-warning">Our Story</h2>
+        <p class="text-justify">TechTrendz was founded by a team of tech enthusiasts and professionals who
+            recognized the need for a reliable platform that offers the newest and most innovative tech products. Since
+            our inception, we've grown rapidly, thanks to our commitment to quality, customer satisfaction, and staying
+            ahead of the trends.</p>
+    </div>
+
+    <!-- What We Offer Section -->
+    <div class="mb-5">
+        <h2 class="text-center text-warning">What We Offer</h2>
+        <ul>
+            <li><strong>Diverse Product Range:</strong> From electronics circuits and gadgets to smart home devices and
+                we offer a vast selection of products to cater to all your tech needs.</li>
+            <li><strong>Expert Reviews and Blogs:</strong> Stay informed with our in-depth product reviews, tech news
+                updates, and informative blog articles.</li>
+            <li><strong>Community Engagement:</strong> Join our interactive forums to connect with like-minded tech
+                enthusiasts, share your experiences, and get advice.</li>
+        </ul>
+    </div>
+
+    <!-- Our Values Section -->
+    <div class="mb-5">
+        <h2 class="text-center text-warning">Our Values</h2>
+        <ul>
+            <li><strong>Innovation:</strong> We believe in the power of innovation and constantly seek out the newest
+                tech products to offer our customers.</li>
+            <li><strong>Quality:</strong> Quality is at the core of everything we do. We carefully curate our product
+                selection to ensure we only offer the best.</li>
+            <li><strong>Customer Satisfaction:</strong> Our customers are our top priority. We strive to provide
+                excellent customer service and support to ensure a seamless shopping experience.</li>
+        </ul>
+    </div>
+
+    <!-- Our Journey So Far Section -->
+    <div class="mb-5">
+        <h2 class="text-center text-warning">Our Journey So Far</h2>
+        <p class="text-justify">Since our launch, we've achieved several milestones that we're incredibly proud of.
+            We've expanded our product range, grown our customer base, and built a community of tech enthusiasts who
+            share our passion for innovation.</p>
+    </div>
+
+    <!-- Looking Ahead Section -->
+    <div class="mb-5">
+        <h2 class="text-center text-warning">Looking Ahead</h2>
+        <p class="text-justify">The future is bright for TechTrendz. We plan to continue expanding our product
+            offerings, improving our platform, and fostering a community of tech lovers who are as excited about the
+            future of technology as we are.</p>
+    </div>
+</div>
+
+<!-- Meet the Team Section -->
+<div class="mb-5">
+    <h2 class="text-center text-warning">Meet the Team</h2>
+    <div class="row text-center">
+        <div class="col-md-3 mb-4">
+            <img src="{% static 'image/img1.png' %}" class="img-fluid" width="200" height="150" alt="Abhishek C">
+            <!-- <img src="{% static 'image/img1.png' %}" class="img-fluid rounded-circle mb-3" alt="Abhishek C"> -->
+            <h5>Abhishek C</h5>
+            <h6>(ENG23CS1001)</h6>
+            <p>Founder and CEO</p>
+        </div>
+        <div class="col-md-3 mb-4">
+            <img src="{% static 'image/img2.png' %}" class="img-fluid" width="200" height="150" alt="Akshata Athani">
+            <!-- <img src="{% static 'image/img2.png' %}" class="img-fluid rounded-circle mb-3" alt="Akshata Mahantesh Athani"> -->
+            <h5>Akshata M Athani</h5>
+            <h6>(ENG23CS1022)</h6>
+            <p>Chief Technology Officer</p>
+        </div>
+        <div class="col-md-3 mb-4">
+            <img src="{% static 'image/img3.png' %}" class="img-fluid" width="200" height="150" alt="S Chandhan">
+            <!-- <img src="{% static 'image/akshata.png' %}" class="img-fluid rounded-circle mb-3" alt="S Chandhan"> -->
+            <h5>S Chandhan</h5>
+            <h6>(ENG23CS1017)</h6>
+            <p>Head of Product Development</p>
+        </div>
+        <div class="col-md-3 mb-4">
+            <img src="{% static 'image/img4.png' %}" class="img-fluid" width="200" height="150" alt="Saraswathi S">
+            <!-- <img src="{% static 'image/akshata.png' %}" class="img-fluid rounded-circle mb-3" alt="Saraswathi S"> -->
+            <h5>Saraswathi S</h5>
+            <h6>(ENG22CS1052)</h6>
+            <p>Marketing Director</p>
+        </div>
+    </div>
+</div>
+
+
+<!-- Guided By Section -->
+<div class="container my-5">
+    <h2 class="text-center text-warning" style="font-family: 'Akronim';">Guided By:</h2>
+    <div class="row text-center">
+        <div class="col">
+            <img src="{% static 'image/img7.png' %}" class="img-fluid" width="250" height="150" alt="Nandini K">
+
+            <h5 style="font-family: monospace; margin-top: 0; margin-bottom: 0;">Mr. Deepak Hg</h5>
+            <p style="margin-top: 0; margin-bottom: 0;">Guide</p>
+            <p style="margin-top: 0; margin-bottom: 0;">Assistant Professor, Dept OF CSE</p>
+            <p style="margin-top: 0; margin-bottom: 0;">Dayananda Sagar University</p>
+        </div>
+    </div>
+</div>
+
+<br><br>
+{% endblock content %}

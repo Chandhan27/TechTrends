@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+TechTrendz | About
+{% endblock title %}
+
+{% block content %}
+<!-- Parallax Section
+<div class="parallax-container position-relative text-center text-white bg-dark">
+    <img class="img-fluid w-100" src="{% static 'image/project/techtrendz_logo.png' %}" alt="background img 1"
+        style="opacity: 0.5;">
+    <div class="container position-absolute top-50 start-50 translate-middle">
+        <h1 class="display-4 fw-bold">Unleashing the Power of TechTrendz</h1>
+    </div>
+</div> -->
+
+<!-- Parallax Section -->
+<div class="position-relative text-center text-white bg-dark" style="height: 300px;">
+    <img class="img-fluid w-100 h-100" src="{% static 'image/project/techtrendz_logo.png' %}" alt="TechTrendz Logo"
+        style="opacity: 0.5; object-fit: cover;">
+    <div class="position-absolute top-50 start-50 translate-middle text-center">
+        <h1 class="display-4 fw-bold">Unleashing the Power of TechTrendz</h1>
+    </div>
+</div>
+
+<!-- Abstract Section -->
+<div class="container my-5">
+    <div class="row">
+        <div class="col">
+            <h2 class="text-center" style="font-family: 'Akronim';">Abstract</h2>
+            <p class="text-justify">TechTrendz is an innovative e-commerce platform that brings the latest tech products
+                and trends right to your fingertips. With a user-friendly interface and a vast selection of cutting-edge
+                gadgets, TechTrendz aims to revolutionize the way you shop for technology.
+                At TechTrendz, we understand the importance of staying up-to-date with the ever-evolving tech landscape.
+                That's why we curate a wide range of products, including Electronics
+                Circuits, Electronics Gadgets, Electronic Components, Smart home devices, Wearables, and more. Whether
+                you're a tech enthusiast, a professional, or just someone who appreciates the
+                latest gadgets, TechTrendz has something for everyone.
+                Our website is designed with simplicity and convenience in mind. You can easily browse through different
+                categories, compare products, read detailed descriptions, and check out
+                customer reviews.
+                But TechTrendz is more than just an online store. We strive to create a community of tech enthusiasts by
+                offering informative blog articles, tech news updates, and interactive forums.
+                It's a place where you can not only shop but also engage with like-minded individuals and stay informed
+                about the latest TechTrendz.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Project By Section -->
+<div class="container my-5">
+    <h2 class="text-center" style="font-family: 'Akronim';">Project By:</h2>
+    <div class="row text-center">
+        <div class="col-md-3 mb-4">
+            <img src="{% static 'image/abhi.jpg' %}" class="img-fluid rounded-circle mb-3" alt="Abhishek C">
+            <h5 style="font-family: monospace;">Abhishek C</h5>
+            <p>ENG23CS1001</p>
+        </div>
+        <div class="col-md-3 mb-4">
+            <img src="{% static 'image/akshata.png' %}" class="img-fluid rounded-circle mb-3"
+                alt="Akshata Mahantesh Athani">
+            <h5 style="font-family: monospace;">Akshata M Athani</h5>
+            <p>ENG23CS1022</p>
+        </div>
+        <div class="col-md-3 mb-4">
+            <img src="{% static 'image/akshata.png' %}" class="img-fluid rounded-circle mb-3" alt="S Chandhan">
+            <h5 style="font-family: monospace;">S Chandhan</h5>
+            <p>ENG23CS1017</p>
+        </div>
+        <div class="col-md-3 mb-4">
+            <img src="{% static 'image/akshata.png' %}" class="img-fluid rounded-circle mb-3" alt="Saraswathi S">
+            <h5 style="font-family: monospace;">Saraswathi S</h5>
+            <p>ENG22CS1052</p>
+        </div>
+    </div>
+</div>
+
+<!-- Guided By Section -->
+<div class="container my-5">
+    <h2 class="text-center" style="font-family: 'Akronim';">Guided By:</h2>
+    <div class="row text-center">
+        <div class="col">
+            <img src="{% static 'image/akshata.png' %}" class="img-fluid rounded-circle mb-3" alt="Saraswathi S">
+
+            <h5 style="font-family: monospace; margin-top: 0; margin-bottom: 0;">Mrs Nandini K</h5>
+            <p style="margin-top: 0; margin-bottom: 0;">Guide</p>
+            <p style="margin-top: 0; margin-bottom: 0;">Lecturer, Dept OF CSE</p>
+            <p style="margin-top: 0; margin-bottom: 0;">Dayananda Sagar University</p>
+        </div>
+    </div>
+</div>
+
+<!-- Extra Image Section -->
+<!-- <div class="container text-center my-5">
+    <img src="{% static 'image/akshata.png' %}" class="img-fluid" alt="Extra image">
+</div> -->
+
+{% endblock content %}
